@@ -32,7 +32,7 @@ class WishProductCell: UITableViewCell {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .decimal // 숫자 스타일을 소수점 형태로 설정
         let formattedPrice = numberFormatter.string(from: NSNumber(value: price)) ?? "\(price)"
-        return "\(formattedPrice)원"
+        return "\(formattedPrice)$"
     }
     
     // 제품 정보를 셀에 설정하는 메소드
