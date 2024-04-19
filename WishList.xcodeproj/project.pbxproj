@@ -17,6 +17,7 @@
 		AB4A12972BCE9B9900B39808 /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A12962BCE9B9900B39808 /* WishListViewController.swift */; };
 		AB4A129C2BCFBFC500B39808 /* WishProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A129A2BCFBFC500B39808 /* WishProductCell.swift */; };
 		AB4A129D2BCFBFC500B39808 /* WishProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4A129B2BCFBFC500B39808 /* WishProductCell.xib */; };
+		AB4A12A32BD1FACD00B39808 /* RemoteProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A12A22BD1FACD00B39808 /* RemoteProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AB4A12962BCE9B9900B39808 /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
 		AB4A129A2BCFBFC500B39808 /* WishProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishProductCell.swift; sourceTree = "<group>"; };
 		AB4A129B2BCFBFC500B39808 /* WishProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WishProductCell.xib; sourceTree = "<group>"; };
+		AB4A12A22BD1FACD00B39808 /* RemoteProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		AB4A127E2BCE9A4E00B39808 /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				AB4A12A12BD1FABE00B39808 /* Model */,
 				AB4A129E2BCFF0D300B39808 /* View */,
 				AB4A12A02BCFF0F500B39808 /* Controller */,
 				AB4A127F2BCE9A4E00B39808 /* AppDelegate.swift */,
@@ -101,6 +104,14 @@
 				AB4A12852BCE9A4E00B39808 /* Main.storyboard */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB4A12A12BD1FABE00B39808 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A12A22BD1FACD00B39808 /* RemoteProduct.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				AB4A12972BCE9B9900B39808 /* WishListViewController.swift in Sources */,
 				AB4A12842BCE9A4E00B39808 /* ViewController.swift in Sources */,
 				AB4A12802BCE9A4E00B39808 /* AppDelegate.swift in Sources */,
+				AB4A12A32BD1FACD00B39808 /* RemoteProduct.swift in Sources */,
 				AB4A12822BCE9A4E00B39808 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
